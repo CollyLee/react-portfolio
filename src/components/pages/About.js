@@ -1,22 +1,18 @@
 import React from 'react';
 
 export default function About() {
-  return (
-    <div>
-      <h3>About Me</h3>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+    return (
+        <div>
+            <h3>About Me</h3>
+            <div className='renderBody'>
+                <p>
+                    Former non-profit financier of ten years turned web developer. Currently nestled in the mountains of Central Pennsylvania (go Nittany Lions!). When I'm not plugging away at my coding, I'm either baking, playing video games, or doting on my amazing pitbull, Dexter.
+                    <br></br><br></br>
+                    My current skillsets are HTML and CSS, with more JavaScript knowledge on the way soon. Overall, I'm looking forward to seeing where the development path takes me, whether it's in web, software, or video game development.
+                </p>
+
+                <img src="./images/IMG_20230225_171018~2.jpg"></img>
+            </div>
+        </div>
+    );
 }
