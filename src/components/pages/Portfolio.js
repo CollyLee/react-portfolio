@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 
 export default function Portfolio() {
     return (
@@ -11,34 +12,34 @@ export default function Portfolio() {
                     You can read a little bit about me in the About Me tab, or drop me a message in the Contact Me tab. Or if you'd like to see a list of my proficiencies and a copy of my resume, feel free to take a look at the View My Resume section.
                 </p>
                 <article>
-                <a id="large-project-1" href="https://collylee.github.io/Prework-Study-Guide/">
+                <a href="https://morning-spire-04153.herokuapp.com/games">
                     <figure>
-                        <figcaption id="overlay-large">Party Locator: Video Game Forum</figcaption>
+                        <figcaption id="large-project-1" className="overlay-large">Party Locator: Video Game Forum</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-2" href="https://collylee.github.io/horiseon-accessibility-refactor/">
+                <a id="small-project-2" href="https://collylee.github.io/p1-national-parks-locator/">
                     <figure>
-                        <figcaption class="overlay">ParkFinder: Plan Your Next Outdoor Getaway</figcaption>
+                        <figcaption id="small-project-2" className="overlay">ParkFinder: Plan Your Next Outdoor Getaway</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-3" href="https://www.google.com/">
+                <a id="small-project-3" href="https://collylee.github.io/api-weather-dashboard/">
                     <figure>
-                        <figcaption class="overlay">API Weather Dashboard</figcaption>
+                        <figcaption id="small-project-3" className="overlay">API Weather Dashboard</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-4" href="https://www.google.com//">
+                <a id="small-project-4" href="https://collylee.github.io/web-api-code-quiz">
                     <figure>
-                        <figcaption class="overlay">Multiple-Choice Pokemon Quiz</figcaption>
+                        <figcaption id="small-project-4" className='overlay'>Multiple-Choice Pokemon Quiz</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-5" href="https://www.google.com//">
+                <a id="small-project-5" href="https://gist.github.com/CollyLee/103aeb12df8ebcbc514e6d3a96442904">
                     <figure>
-                        <figcaption class="overlay">Instructional Writing: Using RegEx</figcaption>
+                        <figcaption id="small-project-5" className="overlay">Instructional Writing: Using RegEx</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-5" href="https://www.google.com//">
+                <a id="small-project-6" href="https://github.com/CollyLee/employee-tracker">
                     <figure>
-                        <figcaption class="overlay">Employee Tracker (NodeJS)</figcaption>
+                        <figcaption id="small-project-6" className="overlay-large">Employee Tracker (NodeJS)</figcaption>
                     </figure>
                 </a>
             </article>

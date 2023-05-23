@@ -1,15 +1,89 @@
 .form {
-    margin: 20px;
-  }
-  
-  .form input {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-  }
+  margin: 20px;
+}
 
-  .renderBody {
-    margin: 10px
-  }
-  
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.renderBody {
+  margin: 10px;
+}
+
+article a:hover {
+  filter: saturate(.4);
+  cursor: pointer;
+  border: 2px solid lightgray;
+}
+
+#large-project-1 {
+  flex: 1 1 80%;
+  background-image: url(../../../public/images/project-1-screenshot.png);
+  height: 400px;
+  margin: 15px;
+}
+
+#small-project-2 {
+  flex: 1 1 40%;
+  background-image: url(../../../public/images/project-2-screenshot.png);
+  height: 200px;
+  margin: 15px
+}
+
+#small-project-3 {
+  flex: 1 1 40%;
+  background-image: url(../../../public/images/project-3-screenshot.png);
+  height: 200px;
+  margin: 15px
+}
+
+#small-project-4 {
+  flex: 1 1 40%;
+  background-image: url(../../../public/images/project-4-screenshot.png);
+  height: 200px;
+  margin: 15px
+}
+
+#small-project-5 {
+  flex: 1 1 40%;
+  background-image: url(../../../public/images/project-5-screenshot.png);
+  height: 200px;
+  margin: 15px
+}
+
+#small-project-6 {
+  flex: 1 1 40%;
+  background-image: url(../../../public/images/project-6-screenshot.png);
+  height: 200px;
+  margin: 15px
+}
+
+article a:hover {
+  filter: saturate(.4);
+  cursor: pointer;
+  border: 2px solid lightgray;
+}
+
+.overlay {
+  display: block;
+  margin-top: 160px;
+  background: rgb(255, 255, 240, .75);
+  color: #3B4140;
+  font-size: 150%;
+}
+
+.overlay-large {
+  display: block;
+  margin-top: 360px;
+  background: rgb(255, 255, 240, .75);
+  color: #3B4140;
+  font-size: 150%;
+}
+
+article a {
+  background-size: cover;
+  border: 2px solid black;
+}
