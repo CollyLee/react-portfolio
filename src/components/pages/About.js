@@ -11,7 +11,7 @@ export default function About() {
                     <br></br><br></br>
                     My current skillsets are HTML and CSS, with more JavaScript knowledge on the way soon. Overall, I'm looking forward to seeing where the development path takes me, whether it's in web, software, or video game development.
                 </p>
-                <img className="col-8" id="about-me-photo" src="./images/IMG_20230225_171018~2.jpg">
+                <img className="col-5" id="about-me-photo" src="./images/IMG_20230225_171018~2.jpg">
 
                 </img>
             </div>

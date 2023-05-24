@@ -17,7 +17,8 @@ export default function Contact() {
                         type="email"
                         placeholder="Best email address to contact you at"
                     />
-                    <input
+                    <textarea
+                        id="message-input"
                         name="message"
                         type="text"
                         placeholder="Your message"

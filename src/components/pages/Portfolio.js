@@ -43,7 +43,7 @@ export default function Portfolio() {
                 </a>
                 <a href="https://github.com/CollyLee/employee-tracker">
                     <figure>
-                        <figcaption id="small-project-6" className="overlay-large">Employee Tracker (NodeJS)</figcaption>
+                        <figcaption id="small-project-6" className="overlay">Employee Tracker (NodeJS)</figcaption>
                     </figure>
                 </a>
                 </article>
