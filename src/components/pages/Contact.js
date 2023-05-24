@@ -3,10 +3,10 @@ import './style.css'
 
 export default function Contact() {
     return (
-        <div>
+        <div className="body">
             <h3>Contact Me</h3>
             <div className='renderBody row'>
-                <form className="form col-5">
+                <form className="form col-6">
                     <input
                         name="name"
                         type="name"

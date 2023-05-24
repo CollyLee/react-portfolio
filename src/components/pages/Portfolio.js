@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Portfolio() {
     return (
-        <div>
+        <div className="body">
             <h3>My Portfolio</h3>
             <div className='renderBody'>
                 <p>

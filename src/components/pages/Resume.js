@@ -3,21 +3,23 @@ import './style.css'
 
 export default function Resume() {
     return (
-        <div>
+        <div className="body">
             <h3>View My Resume</h3>
             <div className='renderBody'>
-                <h5>Coding Proficiencies</h5>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS and BootStrap</li>
-                    <li>JavaScript</li>
-                    <li>JQuery</li>
-                    <li>NodeJS</li>
-                    <li>MySQL and Sequelize</li>
-                    <li>MongoDB and Mongoose</li>
-                    <li>React</li>
-                </ul>
-                <img src="./resumethumbnail.jpg"></img>
+                <h5>Coding Proficiencies Include:</h5>
+                <div className="row" id="proficiency-col">
+                    <p className="col proficiency">HTML</p>
+                    <p className="col proficiency">CSS and BootStrap</p>
+                    <p className="col proficiency">JavaScript</p>
+                    <p className="col proficiency">JQuery</p>
+                    <p className="col proficiency">NodeJS</p>
+                    <p className="col proficiency">MySQL and Sequelize</p>
+                    <p className="col proficiency">MongoDB and Mongoose</p>
+                    <p className="col proficiency">React</p>
+                </div>
+                <div>
+                    <img src="./resumethumbnail.jpg"></img>
+                </div>
             </div>
         </div>
     );

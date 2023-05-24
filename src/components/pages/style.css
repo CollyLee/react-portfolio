@@ -1,6 +1,14 @@
+.body {
+  padding-top: 50px;
+  margin: 20px
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
 #about-me-photo {
   width: 50%;
-  height: 50%;
 }
 
 .form {
@@ -14,15 +22,7 @@
   width: 100%;
 }
 
-.renderBody {
-  margin: 10px !important;
-}
 
-article a:hover {
-  filter: saturate(.4);
-  cursor: pointer;
-  border: 2px solid lightgray;
-}
 
 #small-project-1 {
   background-image: url(../../../public/images/project-1-screenshot.png);
@@ -60,21 +60,31 @@ article a:hover {
   margin: 15px
 }
 
-article a:hover {
-  filter: saturate(.4);
-  cursor: pointer;
-  border: 2px solid lightgray;
-}
-
 .overlay {
   display: block;
   margin-top: 160px;
   background: rgb(255, 255, 240, .75);
   color: #3B4140;
   font-size: 150%;
+  border: 2px solid transparent;
+}
+
+.overlay:hover {
+  filter: saturate(.4);
+  cursor: pointer;
+  border: 2px solid lightgray;
 }
 
 article a {
   background-size: cover;
-  border: 2px solid black;
+  border: 2px solid transparent;
+}
+
+#proficiency-col {
+  padding: 0 10% 0 10%;
+}
+
+.proficiency {
+  text-align: center;
+  width: 75%;
 }
