@@ -11,38 +11,43 @@ export default function Portfolio() {
                     <br></br><br></br>
                     You can read a little bit about me in the About Me tab, or drop me a message in the Contact Me tab. Or if you'd like to see a list of my proficiencies and a copy of my resume, feel free to take a look at the View My Resume section.
                 </p>
-                <article>
+            <div className='row'>
+                <article className='col-5'>
                 <a href="https://morning-spire-04153.herokuapp.com/games">
                     <figure>
-                        <figcaption id="large-project-1" className="overlay-large">Party Locator: Video Game Forum</figcaption>
+                        <figcaption id="small-project-1" className="overlay">Party Locator: Video Game Forum</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-2" href="https://collylee.github.io/p1-national-parks-locator/">
+                <a href="https://collylee.github.io/p1-national-parks-locator/">
                     <figure>
                         <figcaption id="small-project-2" className="overlay">ParkFinder: Plan Your Next Outdoor Getaway</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-3" href="https://collylee.github.io/api-weather-dashboard/">
+                <a href="https://collylee.github.io/api-weather-dashboard/">
                     <figure>
                         <figcaption id="small-project-3" className="overlay">API Weather Dashboard</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-4" href="https://collylee.github.io/web-api-code-quiz">
+                </article>
+                
+                <article className='col-5'>
+                <a href="https://collylee.github.io/web-api-code-quiz">
                     <figure>
                         <figcaption id="small-project-4" className='overlay'>Multiple-Choice Pokemon Quiz</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-5" href="https://gist.github.com/CollyLee/103aeb12df8ebcbc514e6d3a96442904">
+                <a href="https://gist.github.com/CollyLee/103aeb12df8ebcbc514e6d3a96442904">
                     <figure>
                         <figcaption id="small-project-5" className="overlay">Instructional Writing: Using RegEx</figcaption>
                     </figure>
                 </a>
-                <a id="small-project-6" href="https://github.com/CollyLee/employee-tracker">
+                <a href="https://github.com/CollyLee/employee-tracker">
                     <figure>
                         <figcaption id="small-project-6" className="overlay-large">Employee Tracker (NodeJS)</figcaption>
                     </figure>
                 </a>
-            </article>
+                </article>
+                </div>
             </div>
         </div >
     );

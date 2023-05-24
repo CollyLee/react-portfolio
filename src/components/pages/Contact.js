@@ -5,8 +5,8 @@ export default function Contact() {
     return (
         <div>
             <h3>Contact Me</h3>
-            <div className='renderBody'>
-                <form className="form">
+            <div className='renderBody row'>
+                <form className="form col-5">
                     <input
                         name="name"
                         type="name"
@@ -24,6 +24,9 @@ export default function Contact() {
                     />
                     <button type="button">Submit</button>
                 </form>
+                <p className='col-5'>
+                Elizabeth Bennet had been obliged, by the scarcity of gentlemen, to sit down for two dances; and during part of that time, Mr. Darcy had been standing near enough for her to hear a conversation between him and Mr. Bingley, who came from the dance for a few minutes, to press his friend to join it.   
+                </p>
 
             </div>
         </div>
