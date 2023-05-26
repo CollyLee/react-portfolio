@@ -6,15 +6,15 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('About');
 
 //   CHECKS WHICH PAGE IS ACTIVE AND RENDERS ACCORDINGLY
   const renderPage = () => {
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     if (currentPage === 'Resume') {
       return <Resume />;

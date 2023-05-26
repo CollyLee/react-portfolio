@@ -3,7 +3,15 @@ header {
   padding: 15px;
   font-family: 'Permanent Marker', cursive;
   background-color: #05386B;
-  color: #EDF5E1
+  color: #EDF5E1;
+}
+
+h1 {
+  font-size: 400% !important;
+}
+
+p {
+  font-size: 125%;
 }
 
 html{
@@ -12,6 +20,10 @@ html{
 
 .row {
   justify-content: center;
+}
+
+.col-5, .col-6 {
+  margin: 50px
 }
 
 .nav-tabs {
@@ -30,7 +42,7 @@ html{
 }
 
 .body {
-  padding: 20px;
+  padding: 75px;
   padding-top: 50px;
   font-family: 'Quicksand', sans-serif;
   background-color: #EDF5E1;
@@ -44,6 +56,7 @@ h3 {
 
 #about-me-photo {
   width: 30%;
+ 
 }
 
 .form {
@@ -64,45 +77,11 @@ textarea {
   width: 100%
 }
 
-#small-project-1 {
-  background-image: url(../../../public/images/project-1-screenshot.png);
-  height: 200px;
-  margin: 15px
-}
 
-#small-project-2 {
-  background-image: url(../../../public/images/project-2-screenshot.png);
-  height: 200px;
-  margin: 15px
-}
-
-#small-project-3 {
-  background-image: url(../../../public/images/project-3-screenshot.png);
-  height: 200px;
-  margin: 15px
-}
-
-#small-project-4 {
-  background-image: url(../../../public/images/project-4-screenshot.png);
-  height: 200px;
-  margin: 15px
-}
-
-#small-project-5 {
-  background-image: url(../../../public/images/project-5-screenshot.png);
-  height: 200px;
-  margin: 15px
-}
-
-#small-project-6 {
-  background-image: url(../../../public/images/project-6-screenshot.png);
-  height: 200px;
-  margin: 15px;
-}
 
 .overlay {
   display: block;
-  margin-top: 160px;
+  margin-top: 50px;
   background: rgb(255, 255, 240, .75);
   color: #3B4140;
   font-size: 150%;

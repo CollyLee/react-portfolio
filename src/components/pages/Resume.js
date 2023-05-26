@@ -18,7 +18,7 @@ export default function Resume() {
                     <p className="col proficiency">React</p>
                 </div><br></br>
                 <div>
-                    <p>If you would like to view my full resume, you can download it here.
+                    <p>If you would like to view my full resume, you can download it <a href="https://docs.google.com/document/d/1TH9mfNkdtOdtE5gaDQOAsUxlvxojoodoZHwA5rLo6rU/edit?usp=sharing">here</a>.
                     </p>
                 </div>
             </div>
