@@ -13,7 +13,7 @@ export default function About() {
                     <br></br><br></br>
                     Please feel free to look around my site. You can browse a list of some of my favorite projects, download my resume, and reach out to me via the form provided on the Contact Me tab.
                 </p>
-                <img className="col-5" id="about-me-photo" src="./images/IMG_20230225_171018~2.jpg">
+                <img className="col-5" id="about-me-photo" src={process.env.PUBLIC_URL + "/images/IMG_20230225_171018~2.jpg"}>
 
                 </img>
             </div>
