@@ -16,17 +16,17 @@ export default function Portfolio() {
                     {/* FIRST COLUMN OF PROJECT THUMBNAILS */}
                     <article className='col-5'>
                         <a href="https://morning-spire-04153.herokuapp.com/games">
-                            <img className='overlay' src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=">
+                            <img className='overlay' src={process.env.PUBLIC_URL + "/images/project-1-screenshot.jpg"}>
                             </img>
                         </a>
 
                         <a href="https://collylee.github.io/p1-national-parks-locator/">
-                            <img className='overlay' src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=">
+                            <img className='overlay' src={process.env.PUBLIC_URL + "/images/project-2-screenshot.jpg"}>
                             </img>
                         </a>
 
                         <a href="https://collylee.github.io/api-weather-dashboard/">
-                            <img className='overlay' src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=">
+                            <img className='overlay' src={process.env.PUBLIC_URL + "/images/project-3-screenshot.jpg"}>
                             </img>
                         </a>
                     </article>
@@ -34,17 +34,17 @@ export default function Portfolio() {
                     {/* SECOND COLUMN OF PROJECT THUMBNAILS */}
                     <article className='col-5'>
                         <a href="https://collylee.github.io/web-api-code-quiz">
-                            <img className='overlay' src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=">
+                            <img className='overlay' src={process.env.PUBLIC_URL + "/images/project-4-screenshot.jpg"}>
                             </img>
                         </a>
 
                         <a href="https://gist.github.com/CollyLee/103aeb12df8ebcbc514e6d3a96442904">
-                            <img className='overlay' src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=">
+                            <img className='overlay' src={process.env.PUBLIC_URL + "/images/project-5-screenshot.jpg"}>
                             </img>
                         </a>
 
                         <a href="https://github.com/CollyLee/employee-tracker">
-                            <img className='overlay' src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=">
+                            <img className='overlay' src={process.env.PUBLIC_URL + "/images/project-6-screenshot.jpg"}>
                             </img>
                         </a>
 
