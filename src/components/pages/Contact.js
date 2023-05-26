@@ -36,6 +36,9 @@ export default function Contact() {
                 </form>
                 <p className='col-5'>
                    This form can be used to reach out to me for any questions, comments, or opportunities you may have. I try to respond by the next business day, so feel free to follow up if you do not hear back from me within 24 hours.
+                
+                    If you would prefer to reach out to me directly, please feel free to send an email to cleidy.developer@gmail.com
+
                 </p>
 
             </div>
